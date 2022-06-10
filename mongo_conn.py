@@ -16,6 +16,6 @@ except pymongo.errors.ConnectionFailure as e:
     print("Could not connect: %s" % e)
 
 ## Database name in parameter , connection object in return
-def getConnData(dbName="mongo_dip"):
+def getConnData(dbName):
     db = client[dbName]
     return db
