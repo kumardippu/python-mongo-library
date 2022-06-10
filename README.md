@@ -1,6 +1,6 @@
 # python-mongo-library
 Simple python library for MongoDB connection
-There are 2 files
+There are 3 files
 
 1) config.py
 In this file you can define all credentials for the MongoDB. For instance Host, user name, password etc
